@@ -39,10 +39,3 @@ class VideoLib:
 
         command = f"ffmpeg -i {path_to_mp4} -ab 160k -ac 2 -ar 44100 -vn {path_to_output_wav}" 
         subprocess.call(command, shell=True)
-
-
-        
-        
-        
-
-    

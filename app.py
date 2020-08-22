@@ -2,12 +2,6 @@ import json
 from aiohttp import web
 from google.cloud import storage
 
-
-#client = storage.Client.from_service_account_json('C:\\Users\\Sonali\\Downloads\\classroom-test-ffd25d8801b2.json')
-# classrooms_bucket = client.get_bucket('classroom_1')
-# print(list(classrooms_bucket.list_blobs()))
-
-
 class ClassroomsApp:
     def __init__(self, client):  # classroom list - list of classroom objects
         self.client = client
@@ -69,10 +63,10 @@ def create_app():
     app.add_routes([web.get('/', app.classroom_service.root_index),
                     web.get('/fail', app.classroom_service.fail_route),
                     web.get('/classrooms', app.classroom_service.get_classroom_names),
-                    web.get('/classrooms/{classroom_number}', app.classroom_service.get_classroom_video_names),
-                    web.get('/classrooms/{classroom_number}/{video_number}',
+                    web.get('/classrooms/{classroom_name}', app.classroom_service.get_classroom_video_names),
+                    web.get('/classrooms/{classroom_name}/{video_number}',
                             app.classroom_service.get_a_classroom_video),
-                    web.post('/classrooms/{classroom_number}/{video_number}/{search_term}',
+                    web.post('/classrooms/{classroom_name}/{video_number}/{search_term}',
                              app.classroom_service.search_video),
                     #web.static('/', ),
                     # This must be the last route
