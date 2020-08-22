@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/nick/Desktop/MHacks-20-beta/tests/pytest-env"
+set -gx VIRTUAL_ENV "/home/nick/Desktop/mhacks_py/pytest-env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

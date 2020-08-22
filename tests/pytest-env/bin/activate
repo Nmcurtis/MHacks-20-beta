@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/nick/Desktop/MHacks-20-beta/tests/pytest-env"
+VIRTUAL_ENV="/home/nick/Desktop/mhacks_py/pytest-env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
