@@ -33,8 +33,9 @@ class VideoLib:
         path_to_mp4 = _PATH_TO_VIDEOS + folder_name + f"/" + mp4_name
         path_to_wav_folder = _PATH_TO_AUDIO_FILES + folder_name 
         path_to_output_wav = path_to_wav_folder + f"/" + wav_name
-        
-        os.makedirs(path_to_wav_folder)
+       
+        if not os.path.exists(path_to_wav_folder):
+            os.makedirs(path_to_wav_folder)
 
         command = f"ffmpeg -i {path_to_mp4} -ab 160k -ac 2 -ar 44100 -vn {path_to_output_wav}" 
         subprocess.call(command, shell=True)
