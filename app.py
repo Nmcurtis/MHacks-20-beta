@@ -32,7 +32,7 @@ class ClassroomsApp:
     async def get_a_classroom_video(self, req):
         bucket_name = req.match_info.get('classroom_name')
         video_number = req.match_info.get('video_number')
-        classroom_names = json.loads(self.get_classrooms_names())
+        classroom_names = json.loads(self.get_classroom_names())
         if bucket_name in classroom_names:
             classroom_bucket = self.client.get_bucket(bucket_name)
             blobs = classroom_bucket.list_blobs()
