@@ -9,7 +9,7 @@ from google.cloud.speech_v1 import enums
 credential_path = f"/home/nick/Desktop/videolib-869de019615c.json"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
-_PATH_TO_VIDEOS = f"/videos"
+_PATH_TO_VIDEOS = f"../videos/"
 
 class VideoLib:
     def __init__(self):
@@ -20,8 +20,12 @@ class VideoLib:
         self.language_code =  "en-US"
 
 
-    def download_youtube_video_from_uri(self, uri: str, file_name: str):
+    def download_youtube_video_from_uri(self, uri: str, folder_name: str):
         yt = YouTube(uri)
+        stream = yt.streams.filter(subtype='mp4').first()
+        stream.download(_PATH_TO_VIDEOS + folder_name)
+
+        
         
         
 
