@@ -1,9 +1,11 @@
 # video_lib.py
 
 import subprocess
+import json
 import os
 
 from pytube import YouTube
+from google.protobuf.json_format import MessageToJson
 from google.cloud import speech_v1
 from google.cloud.speech_v1 import enums
 
@@ -12,6 +14,7 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
 _PATH_TO_VIDEOS = f"../videos/"
 _PATH_TO_AUDIO_FILES = f"../audio_files/"
+_PATH_TO_TRANSCRIPT_FILES = f"../transcripts/"
 
 class VideoLib:
     def __init__(self):
@@ -31,14 +34,13 @@ class VideoLib:
         self.latest_result = None
 
 
-    def download_youtube_video_from_uri(self, uri: str, folder_name: str, file_name: str) -> None:
+    def download_youtube_video_from_uri(self, uri: str, folder_name: str) -> None:
         yt = YouTube(uri)
         stream = yt.streams.filter(subtype='mp4').first()
         stream.download(_PATH_TO_VIDEOS + folder_name)
-        os.rename(_PATH_TO_VIDEOS + folder_name + f"/" + yt.title + ".mp4", _PATH_TO_VIDEOS + folder_name + f"/" + file_name)
 
 
-    def convert_mp4_to_wav(self, folder_name: str, mp4_name: str, wav_name: str):
+    def convert_mp4_to_wav(self, folder_name: str, mp4_name: str, wav_name: str) -> None:
         path_to_mp4 = _PATH_TO_VIDEOS + folder_name + f"/" + mp4_name
         path_to_wav_folder = _PATH_TO_AUDIO_FILES + folder_name 
         path_to_output_wav = path_to_wav_folder + f"/" + wav_name
@@ -50,7 +52,10 @@ class VideoLib:
         subprocess.call(command, shell=True)
 
 
-    def get_wav_transcript_from_uri(self, uri: str):
+    def get_wav_transcript_from_uri(self, uri: str, folder_name: str, file_name: str) -> None:
+        path_to_output_transcript_folder = _PATH_TO_TRANSCRIPT_FILES + folder_name  
+        path_to_output_transcript = path_to_output_transcript_folder + f"/" + file_name
+
         config = {
             "language_code": self.language_code,
             "sample_rate_hertz": self.sample_rate_hertz,
@@ -67,5 +72,10 @@ class VideoLib:
 
         result = response.results[0]
         most_probable_result = result.alternatives[0]
-        
-        print(most_probable_result.words)
+
+        if not os.path.exists(path_to_output_transcript_folder):
+            os.makedirs(path_to_output_transcript_folder)
+ 
+        with open(path_to_output_transcript, 'w') as json_file:
+            json_result = MessageToJson(most_probable_result)
+            json_file.write(json_result)
