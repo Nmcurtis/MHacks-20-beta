@@ -28,4 +28,8 @@ export class LecturePageComponent implements OnInit {
     this.lecture = this.lectureService.currentLecture;
   }
 
+  onSearch() {
+    this.lectureService.search(this.value);
+  }
+
 }
