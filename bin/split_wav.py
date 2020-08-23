@@ -1,9 +1,11 @@
 from pydub import AudioSegment
 
+
 # not tested
 def time_stamp_to_seconds_converter(timestamp: str):  # m:s
     timestamp.split(":")
     return int(timestamp[0]) * 60 + int(timestamp[1])
+
 
 # not tested
 def seconds_to_timestamp_converter(seconds: int):
@@ -32,12 +34,12 @@ def split_all_audio_into_segments(wav_file_path, segment_length):  # files shoul
         if end_time > audio_length_in_seconds:
             end_time = audio_length_in_seconds
             save_a_wav_segment(start_time, end_time, wav_file_path)
-            break
+            return
         save_a_wav_segment(start_time, end_time, wav_file_path)
         start_time = end_time
         end_time += segment_length
 
-def test():
+def xtest():
     test_segment_length = 2
     split_all_audio_into_segments('audio_files/TwentyOne/twenty_one.wav', test_segment_length)
 # should see new wav files that are split into this length
