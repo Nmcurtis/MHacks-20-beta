@@ -88,7 +88,7 @@ def search_transcript(search_phrase):
         timestamp = content["words"][num]['startTime']
     else:
         timestamp = 0
-    return timestamp
+    return timestamp[0]
 
 print(search_transcript("government and politics"))
 

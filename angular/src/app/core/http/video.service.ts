@@ -12,7 +12,7 @@ export class VideoService {
 
   constructor(private http: HttpClient) {}
   public sendSearchTerm(comp: any, searchTerm: string) {
-    const url = `http://localhost:8080/classrooms/political_science_227/${searchTerm}` ;
+    const url = `http://localhost:8080/classrooms/political_science_227/1/${searchTerm}` ;
     console.log(url);
 
     // const rawResponse = await fetch(url, {

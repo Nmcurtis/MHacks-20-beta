@@ -22,7 +22,7 @@ export class LecturePageComponent implements OnInit {
 
   constructor(private lectureService: LectureService,
               private _sanitizer: DomSanitizer) {
-    this.videoLink = this._sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/watch?v=UniPsEFWu3M");
+    this.videoLink = this._sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/lrk4oY7UxpQ");
   }
 
   ngOnInit(): void {
