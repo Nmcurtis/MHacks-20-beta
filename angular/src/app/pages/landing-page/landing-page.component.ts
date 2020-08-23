@@ -22,8 +22,8 @@ export class LandingPageComponent implements OnInit {
 
   ngOnInit(): void {
     for (let i=0; i < CLASSES.length; ++i) {
-      this.classes.push(new Classroom(CLASSES[i]["classCode"], CLASSES[i]["className"]))
-      this.classes[i].lectures.push(new Lecture(new Date(), "Lecture 1"))
+      this.classes.push(new Classroom(CLASSES[i]["classCode"], CLASSES[i]["className"], CLASSES[i]["preview"]))
+      this.classes[i].lectures.push(new Lecture(new Date(), "Lecture 1", "assets/img/preview.PNG"))
     }
   }
 

@@ -10,6 +10,7 @@ export class TilePreviewComponent implements OnInit {
 
   @Input() title: string;
   @Input() subtitle: string;
+  @Input() preview: string;
 
   constructor() { }
 

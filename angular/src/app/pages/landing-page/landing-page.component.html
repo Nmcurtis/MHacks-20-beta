@@ -4,7 +4,7 @@
     <div class="mt-3">
         <mat-grid-list cols="3" rowHeight="1:1">
             <mat-grid-tile *ngFor="let class of classes">
-                <app-tile-preview [title]="class.className" [subtitle]="class.classCode" (click)="openClass(class)"></app-tile-preview>
+                <app-tile-preview [title]="class.className" [subtitle]="class.classCode" [preview]="class.preview" (click)="openClass(class)"></app-tile-preview>
             </mat-grid-tile>
         </mat-grid-list>
     </div>

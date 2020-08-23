@@ -7,6 +7,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-lecture-page',
@@ -18,18 +19,36 @@ export class LecturePageComponent implements OnInit {
   lecture: Lecture;
   value: string;
   videoLink: SafeResourceUrl;
+  timestamps: number[] = ['0'];
+  baseUrl: string = "https://www.youtube.com/embed/lrk4oY7UxpQ"
+  errorMessage: string = "";
 
   constructor(private lectureService: LectureService,
               private _sanitizer: DomSanitizer) {
-    this.videoLink = this._sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/watch?v=UniPsEFWu3M");
+    this.videoLink = this._sanitizer.bypassSecurityTrustResourceUrl(this.baseUrl);
   }
 
   ngOnInit(): void {
     this.lecture = this.lectureService.currentLecture;
   }
 
+  updateUrl(url: number[]) {
+    if (url.length) {
+      this.status = "Matches Found!"
+      this.timestamps = url;
+      this.videoLink = this._sanitizer.bypassSecurityTrustResourceUrl(this.baseUrl + "?start=" + url[0]);
+    } else {
+      this.status = "No matches found.";
+      console.log(this.status)
+    }
+  }
+
+  updateVideo(url: number) {
+    this.videoLink = this._sanitizer.bypassSecurityTrustResourceUrl(this.baseUrl + "?start=" + url);
+  }
+
   onSearch() {
-    this.lectureService.search(this.value);
+    this.lectureService.search(this, this.value);
   }
 
 }

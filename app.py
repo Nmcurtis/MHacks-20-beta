@@ -3,6 +3,7 @@ from aiohttp import web
 from google.cloud import storage
 import aiohttp_cors
 
+
 class ClassroomsApp:
     def __init__(self, client):  # classroom list - list of classroom objects
         self.client = client
@@ -49,17 +50,19 @@ class ClassroomsApp:
         url = {"url": content['Political Science 227']['Lecture 1']}
         return web.json_response(url)
 
-    async def search_video(self, req): # send search term to function?
+    async def search_video(self, req):  # send search term to function?
         class_name = req.match_info.get('classroom_name')
         lec_num = req.match_info.get('video_number')
-        #search_string = req.match_info.get('search_term')
-        #timestamp = theProcessingFunction(classroom_name, video_number, search_string)
-
-        f = open("classroom_video_urls.txt", "r")
-        content = f.read()
-        content = json.loads(content)
-        url = {"url": "content['Political Science 227']['Lecture 1']"}
-        return web.json_response(json.dumps(url))
+        search_string = req.match_info.get('search_term')
+        # timestamp = theProcessingFunction(classroom_name, video_number, search_string)
+        # timestamp = search_transcript(search_string)
+        # f = open("classroom_video_urls.txt", "r")
+        # content = f.read()
+        # content = json.loads(content)
+        # new_url = content['Political Science 227']['Lecture 1']['url'] + "?start=" + str(timestamp)
+        timestamps = get_all_occurrences(search_string)
+        url = {"url": timestamps}
+        return web.json_response(url)
 
     async def root_index(self, _):
         return web.FileResponse("angular/src/index.html")
@@ -69,12 +72,57 @@ async def on_prepare(_, response):
     response.headers['cache-control'] = 'no-cache'
 
 
+def search_transcript(words, word_num_offset, search_phrase):  # return all occurrences
+    f = open("transcripts/Political_Science_227/Introduction_Crash_Course_US_Government_and_Politics.json", "r")
+    content = f.read()
+    content = json.loads(content)
+
+    if search_phrase in words:
+        i = words.find(search_phrase)
+        #print(i)
+        prev_words = words[:i]
+        #print(prev_words)
+        num = len(prev_words.split(" ")) - 1 + word_num_offset
+        print("word num", num)
+        print(content["words"][num]["word"])
+        timestamp = content["words"][num]['startTime']
+        print("timestamp", timestamp)
+    else:
+        return '0', 0, 0, 0
+    return timestamp[0], timestamp, i, num
+
+
+def get_all_occurrences(search_phrase):
+    len_phrase = len(search_phrase)
+    timestamps = []
+    word_num_offset = 0
+    f = open("transcripts/Political_Science_227/Introduction_Crash_Course_US_Government_and_Politics.json", "r")
+    content = f.read()
+    content = json.loads(content)
+    words = content['transcript']
+
+    print("OG transcript", words)
+    while True:
+        url_timestamp, timestamp, char_num, word_num = search_transcript(words, word_num_offset, search_phrase)
+        if url_timestamp == '0':
+            break
+        timestamps.append(url_timestamp)
+        word_list = words.split(" ")
+        less_words_list = word_list[(word_num+1):]
+        separator = ' '
+        words = separator.join(less_words_list)
+        word_num_offset += word_num + 1
+        print("next search phrase", words)
+    return timestamps
+
+print(get_all_occurrences("asskdjfg"))
+
 def create_app():
     app = web.Application()
     app.on_response_prepare.append(on_prepare)
     app.classroom_service = ClassroomsApp(
-        client=storage.Client.from_service_account_json('C:\\Users\\Sonali\\Downloads\\classroom-test-ffd25d8801b2.json'))
-
+        client=storage.Client.from_service_account_json(
+            'C:\\Users\\Sonali\\Downloads\\classroom-test-ffd25d8801b2.json'))
 
     app.add_routes([web.get('/', app.classroom_service.root_index),
                     web.get('/fail', app.classroom_service.fail_route),
@@ -83,7 +131,7 @@ def create_app():
                     web.get('/classrooms/{classroom_name}/{video_number}',
                             app.classroom_service.get_a_classroom_video_url),
                     web.get('/classrooms/{classroom_name}/{video_number}/{search_term}',
-                             app.classroom_service.search_video),
+                            app.classroom_service.search_video),
                     # This must be the last route
                     ])
 
