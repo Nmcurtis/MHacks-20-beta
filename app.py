@@ -115,6 +115,7 @@ def get_all_occurrences(search_phrase):
         print("next search phrase", words)
     return timestamps
 
+print(get_all_occurrences("asskdjfg"))
 
 def create_app():
     app = web.Application()
