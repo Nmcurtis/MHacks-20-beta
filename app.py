@@ -2,7 +2,7 @@ import json
 from aiohttp import web
 from google.cloud import storage
 import aiohttp_cors
-
+import math
 
 class ClassroomsApp:
     def __init__(self, client):  # classroom list - list of classroom objects
@@ -73,7 +73,7 @@ async def on_prepare(_, response):
 
 
 def search_transcript(words, word_num_offset, search_phrase):  # return all occurrences
-    f = open("transcripts/Political_Science_227/Introduction_Crash_Course_US_Government_and_Politics.json", "r")
+    f = open(r"C:\Users\Sonali\Documents\GitHub\MHacks-20-beta\transcripts\Political_Science_227\Introduction_Crash_Course_US_Government_and_Politics.wav\Introduction_Crash_Course_US_Government_and_Politics.json", "r")
     content = f.read()
     content = json.loads(content)
 
@@ -89,14 +89,14 @@ def search_transcript(words, word_num_offset, search_phrase):  # return all occu
         print("timestamp", timestamp)
     else:
         return '0', 0, 0, 0
-    return timestamp[0], timestamp, i, num
+    return timestamp.split(".")[0], timestamp, i, num
 
 
 def get_all_occurrences(search_phrase):
     len_phrase = len(search_phrase)
     timestamps = []
     word_num_offset = 0
-    f = open("transcripts/Political_Science_227/Introduction_Crash_Course_US_Government_and_Politics.json", "r")
+    f = open(r"C:\Users\Sonali\Documents\GitHub\MHacks-20-beta\transcripts\Political_Science_227\Introduction_Crash_Course_US_Government_and_Politics.wav\Introduction_Crash_Course_US_Government_and_Politics.json", "r")
     content = f.read()
     content = json.loads(content)
     words = content['transcript']
@@ -115,7 +115,7 @@ def get_all_occurrences(search_phrase):
         print("next search phrase", words)
     return timestamps
 
-print(get_all_occurrences("asskdjfg"))
+print(get_all_occurrences("government"))
 
 def create_app():
     app = web.Application()
