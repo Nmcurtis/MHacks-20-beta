@@ -11,7 +11,7 @@ export class VideoService {
   public data: Subject<JSON> = new Subject();
 
   constructor(private http: HttpClient) {}
-  public sendSearchTerm(searchTerm: string) {
+  public sendSearchTerm(comp: any, searchTerm: string) {
     const url = `http://localhost:8080/classrooms/political_science_227/${searchTerm}` ;
     console.log(url);
 
@@ -44,6 +44,7 @@ export class VideoService {
         catchError((e) => this.handleError(e))
       ).subscribe((response)=> {
         this.data.next(response as (JSON));
+        comp.updateUrl(response["url"]);
         console.log(response as (JSON))
       });
   }

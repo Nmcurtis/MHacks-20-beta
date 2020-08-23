@@ -7,6 +7,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-lecture-page',
@@ -28,8 +29,12 @@ export class LecturePageComponent implements OnInit {
     this.lecture = this.lectureService.currentLecture;
   }
 
+  updateUrl(url: string) {
+    this.videoLink = this._sanitizer.bypassSecurityTrustResourceUrl(url);
+  }
+
   onSearch() {
-    this.lectureService.search(this.value);
+    this.lectureService.search(this, this.value);
   }
 
 }
