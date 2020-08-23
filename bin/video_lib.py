@@ -21,6 +21,15 @@ class VideoLib:
         # The language of the supplied audio should be American English
         self.language_code =  "en-US"
 
+        # We expect audio samples to have a sample rate of 44100 Hertz
+        self.sample_rate_hertz = 44100
+
+        # We expect two audio channels in our audio samples:
+        self.audio_channel_count = 2
+
+        # The transcript of the most recent call to the text to speech hook:
+        self.latest_result = None
+
 
     def download_youtube_video_from_uri(self, uri: str, folder_name: str, file_name: str) -> None:
         yt = YouTube(uri)
@@ -39,3 +48,24 @@ class VideoLib:
 
         command = f"ffmpeg -i {path_to_mp4} -ab 160k -ac 2 -ar 44100 -vn {path_to_output_wav}" 
         subprocess.call(command, shell=True)
+
+
+    def get_wav_transcript_from_uri(self, uri: str):
+        config = {
+            "language_code": self.language_code,
+            "sample_rate_hertz": self.sample_rate_hertz,
+            "audio_channel_count": self.audio_channel_count,
+            "enable_word_time_offsets": True
+        }
+
+        audio = {
+                "uri": uri
+        }
+
+        operation = self.speech_client.long_running_recognize(config, audio)
+        response = operation.result()
+
+        result = response.results[0]
+        most_probable_result = result.alternatives[0]
+        
+        print(most_probable_result.words)
