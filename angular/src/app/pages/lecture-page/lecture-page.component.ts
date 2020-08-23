@@ -19,7 +19,7 @@ export class LecturePageComponent implements OnInit {
   lecture: Lecture;
   value: string;
   videoLink: SafeResourceUrl;
-  timestamps: number[] = [2, 12, 25];
+  timestamps: number[] = ['0'];
   baseUrl: string = "https://www.youtube.com/embed/lrk4oY7UxpQ"
   errorMessage: string = "";
 
@@ -34,11 +34,13 @@ export class LecturePageComponent implements OnInit {
 
   updateUrl(url: number[]) {
     if (url.length) {
+      this.status = "Matches Found!"
       this.timestamps = url;
       this.videoLink = this._sanitizer.bypassSecurityTrustResourceUrl(this.baseUrl + "?start=" + url[0]);
     } else {
-      this.errorMessage = "No matches";
-    } 
+      this.status = "No matches found.";
+      console.log(this.status)
+    }
   }
 
   updateVideo(url: number) {

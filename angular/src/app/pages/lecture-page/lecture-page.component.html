@@ -10,7 +10,8 @@
             </button>
         </mat-form-field>
         <button mat-raised-button color="primary" (click)="onSearch()">Search</button><br>
-        <a><b>Skip Ahead: </b></a>
+        <p>{{this.status}}</p>
+        <a><b>Skip Ahead To Search Phrase Matches: </b></a>
         <ng-container *ngFor="let time of timestamps">
             <button class="m-1" mat-raised-button color="primary" (click)="updateVideo(time)"> {{time}} seconds</button>
         </ng-container>
