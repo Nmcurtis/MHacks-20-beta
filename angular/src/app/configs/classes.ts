@@ -1,7 +1,7 @@
 export const CLASSES = [
     {
-        classCode: "CHM 101",
-        className: "Introduction to Chemistry",
+        classCode: "HST 201",
+        className: "U.S. Government & Politics",
         preview: "assets/img/stock.jpeg"
     }, 
     {
