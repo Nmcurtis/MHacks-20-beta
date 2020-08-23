@@ -10,11 +10,35 @@ export class VideoService {
 
   public data: Subject<JSON> = new Subject();
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
   public sendSearchTerm(searchTerm: string) {
-    const url = `https://localhost:8800/${searchTerm}` ;
+    const url = `http://localhost:8080/classrooms/political_science_227/${searchTerm}` ;
     console.log(url);
-    
+
+    // const rawResponse = await fetch(url, {
+    //     method: 'POST',
+    //     headers: {
+    //         'Accept': 'text/plain',
+    //         'Content-Type': 'text/plain'
+    //         },
+    //     body: searchTerm,
+    //     mode: "no-cors"
+    // });
+    //
+    // $.get(url, function(data){
+    //   console.log(data)
+    // });
+    const headerDict = {
+      'Content-Type': 'text',
+      'Accept': 'text',
+      'Access-Control-Allow-Origin': 'http://localhost:8080/',
+    }
+
+    const requestOptions = {
+      headers: new HttpHeaders(headerDict),
+      mode: 'no-cors'
+    };
+
     this.http.get<any>(url, {})
       .pipe(
         catchError((e) => this.handleError(e))
@@ -24,7 +48,7 @@ export class VideoService {
       });
   }
 
-  
+
   private handleError(error: HttpErrorResponse) {
     console.log('error', error);
     // return an observable with a user-facing error message

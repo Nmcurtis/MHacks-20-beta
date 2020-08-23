@@ -15,8 +15,8 @@ web.run_app(webapp)
 # b_2 = {"id": 2, "title": "Congressional Elections", "url": "https://youtu.be/qxiD9AEX4Hc"}
 #
 # c_0 = {"id": 0, "title": "Early Programming", "url": "https://youtu.be/nwDq4adJwzM"}
-# # c_1 = {"id": 1, "title": "", "url": ""}
-# # c_2 = {"id": 2, "title": "a lesson", "url": "a url"}
+# c_1 = {"id": 1, "title": "", "url": ""}
+# c_2 = {"id": 2, "title": "a lesson", "url": "a url"}
 #
 # classes = {"College Writing 101": {"Lecture 1": a_0, "Lecture 2": a_1, "Lecture 3": a_2},
 #            "Political Science 227": {"Lecture 1": b_0, "Lecture 2": b_1, "Lecture 3": b_2}}
