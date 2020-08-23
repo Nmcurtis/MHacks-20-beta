@@ -1,4 +1,5 @@
-# MHacks-20-beta
+# we-Learn
+Turning e-Learning challenges into we-Learning opportunities!
 Our MHacks 20 Beta Project
 
 ## Inspiration
