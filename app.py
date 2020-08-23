@@ -55,12 +55,13 @@ class ClassroomsApp:
         lec_num = req.match_info.get('video_number')
         search_string = req.match_info.get('search_term')
         # timestamp = theProcessingFunction(classroom_name, video_number, search_string)
-        timestamp = search_transcript(search_string)
-        f = open("classroom_video_urls.txt", "r")
-        content = f.read()
-        content = json.loads(content)
-        new_url = content['Political Science 227']['Lecture 1']['url'] + "?start=" + str(timestamp)
-        url = {"url": new_url}
+        # timestamp = search_transcript(search_string)
+        # f = open("classroom_video_urls.txt", "r")
+        # content = f.read()
+        # content = json.loads(content)
+        # new_url = content['Political Science 227']['Lecture 1']['url'] + "?start=" + str(timestamp)
+        timestamps = get_all_occurrences(search_string)
+        url = {"url": timestamps}
         return web.json_response(url)
 
     async def root_index(self, _):
@@ -71,26 +72,49 @@ async def on_prepare(_, response):
     response.headers['cache-control'] = 'no-cache'
 
 
-def search_transcript(search_phrase):
+def search_transcript(words, word_num_offset, search_phrase):  # return all occurrences
+    f = open("transcripts/Political_Science_227/Introduction_Crash_Course_US_Government_and_Politics.json", "r")
+    content = f.read()
+    content = json.loads(content)
+
+    if search_phrase in words:
+        i = words.find(search_phrase)
+        #print(i)
+        prev_words = words[:i]
+        #print(prev_words)
+        num = len(prev_words.split(" ")) - 1 + word_num_offset
+        print("word num", num)
+        print(content["words"][num]["word"])
+        timestamp = content["words"][num]['startTime']
+        print("timestamp", timestamp)
+    else:
+        return '0', 0, 0, 0
+    return timestamp[0], timestamp, i, num
+
+
+def get_all_occurrences(search_phrase):
+    len_phrase = len(search_phrase)
+    timestamps = []
+    word_num_offset = 0
     f = open("transcripts/Political_Science_227/Introduction_Crash_Course_US_Government_and_Politics.json", "r")
     content = f.read()
     content = json.loads(content)
     words = content['transcript']
-    print(words)
-    if search_phrase in words:
-        i = words.find(search_phrase)
-        print(i)
-        prev_words = words[:i]
-        print(prev_words)
-        num = len(prev_words.split(" ")) - 1
-        print(num)
-        print(content["words"][num]["word"])
-        timestamp = content["words"][num]['startTime']
-    else:
-        timestamp = 0
-    return timestamp[0]
 
-print(search_transcript("government and politics"))
+    print("OG transcript", words)
+    while True:
+        url_timestamp, timestamp, char_num, word_num = search_transcript(words, word_num_offset, search_phrase)
+        if url_timestamp == '0':
+            break
+        timestamps.append(url_timestamp)
+        word_list = words.split(" ")
+        less_words_list = word_list[(word_num+1):]
+        separator = ' '
+        words = separator.join(less_words_list)
+        word_num_offset += word_num + 1
+        print("next search phrase", words)
+    return timestamps
+
 
 def create_app():
     app = web.Application()
