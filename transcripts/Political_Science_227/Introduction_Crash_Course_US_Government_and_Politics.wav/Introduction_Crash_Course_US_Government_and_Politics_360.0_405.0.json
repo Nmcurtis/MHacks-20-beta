@@ -1,0 +1,231 @@
+{
+  "transcript": "if you don't pay it next week we'll talk about Congress how it works and what it does when it does anything thanks for watching I'll see you next week and that's my first crash course episode we had a proper Stanford out of throne",
+  "confidence": 0.9358798,
+  "words": [
+    {
+      "startTime": "0.300s",
+      "endTime": "0.800s",
+      "word": "if"
+    },
+    {
+      "startTime": "0.800s",
+      "endTime": "0.900s",
+      "word": "you"
+    },
+    {
+      "startTime": "0.900s",
+      "endTime": "1s",
+      "word": "don't"
+    },
+    {
+      "startTime": "1s",
+      "endTime": "1.200s",
+      "word": "pay"
+    },
+    {
+      "startTime": "1.200s",
+      "endTime": "1.300s",
+      "word": "it"
+    },
+    {
+      "startTime": "1.300s",
+      "endTime": "1.500s",
+      "word": "next"
+    },
+    {
+      "startTime": "1.500s",
+      "endTime": "1.800s",
+      "word": "week"
+    },
+    {
+      "startTime": "1.800s",
+      "endTime": "1.900s",
+      "word": "we'll"
+    },
+    {
+      "startTime": "1.900s",
+      "endTime": "2.100s",
+      "word": "talk"
+    },
+    {
+      "startTime": "2.100s",
+      "endTime": "2.200s",
+      "word": "about"
+    },
+    {
+      "startTime": "2.200s",
+      "endTime": "2.700s",
+      "word": "Congress"
+    },
+    {
+      "startTime": "2.700s",
+      "endTime": "2.900s",
+      "word": "how"
+    },
+    {
+      "startTime": "2.900s",
+      "endTime": "3s",
+      "word": "it"
+    },
+    {
+      "startTime": "3s",
+      "endTime": "3.300s",
+      "word": "works"
+    },
+    {
+      "startTime": "3.300s",
+      "endTime": "3.500s",
+      "word": "and"
+    },
+    {
+      "startTime": "3.500s",
+      "endTime": "3.600s",
+      "word": "what"
+    },
+    {
+      "startTime": "3.600s",
+      "endTime": "3.700s",
+      "word": "it"
+    },
+    {
+      "startTime": "3.700s",
+      "endTime": "3.900s",
+      "word": "does"
+    },
+    {
+      "startTime": "3.900s",
+      "endTime": "4.200s",
+      "word": "when"
+    },
+    {
+      "startTime": "4.200s",
+      "endTime": "4.300s",
+      "word": "it"
+    },
+    {
+      "startTime": "4.300s",
+      "endTime": "4.400s",
+      "word": "does"
+    },
+    {
+      "startTime": "4.400s",
+      "endTime": "4.700s",
+      "word": "anything"
+    },
+    {
+      "startTime": "4.700s",
+      "endTime": "5.300s",
+      "word": "thanks"
+    },
+    {
+      "startTime": "5.300s",
+      "endTime": "5.300s",
+      "word": "for"
+    },
+    {
+      "startTime": "5.300s",
+      "endTime": "5.700s",
+      "word": "watching"
+    },
+    {
+      "startTime": "5.700s",
+      "endTime": "5.900s",
+      "word": "I'll"
+    },
+    {
+      "startTime": "5.900s",
+      "endTime": "6.100s",
+      "word": "see"
+    },
+    {
+      "startTime": "6.100s",
+      "endTime": "6.200s",
+      "word": "you"
+    },
+    {
+      "startTime": "6.200s",
+      "endTime": "6.300s",
+      "word": "next"
+    },
+    {
+      "startTime": "6.300s",
+      "endTime": "6.500s",
+      "word": "week"
+    },
+    {
+      "startTime": "6.500s",
+      "endTime": "6.900s",
+      "word": "and"
+    },
+    {
+      "startTime": "6.900s",
+      "endTime": "7.200s",
+      "word": "that's"
+    },
+    {
+      "startTime": "7.200s",
+      "endTime": "7.600s",
+      "word": "my"
+    },
+    {
+      "startTime": "7.600s",
+      "endTime": "8.300s",
+      "word": "first"
+    },
+    {
+      "startTime": "8.300s",
+      "endTime": "8.700s",
+      "word": "crash"
+    },
+    {
+      "startTime": "8.700s",
+      "endTime": "9.100s",
+      "word": "course"
+    },
+    {
+      "startTime": "9.100s",
+      "endTime": "9.300s",
+      "word": "episode"
+    },
+    {
+      "startTime": "9.300s",
+      "endTime": "10.500s",
+      "word": "we"
+    },
+    {
+      "startTime": "10.500s",
+      "endTime": "10.700s",
+      "word": "had"
+    },
+    {
+      "startTime": "10.700s",
+      "endTime": "10.700s",
+      "word": "a"
+    },
+    {
+      "startTime": "10.700s",
+      "endTime": "11s",
+      "word": "proper"
+    },
+    {
+      "startTime": "11s",
+      "endTime": "11.600s",
+      "word": "Stanford"
+    },
+    {
+      "startTime": "11.600s",
+      "endTime": "12.500s",
+      "word": "out"
+    },
+    {
+      "startTime": "12.500s",
+      "endTime": "12.600s",
+      "word": "of"
+    },
+    {
+      "startTime": "12.600s",
+      "endTime": "13s",
+      "word": "throne"
+    }
+  ]
+}

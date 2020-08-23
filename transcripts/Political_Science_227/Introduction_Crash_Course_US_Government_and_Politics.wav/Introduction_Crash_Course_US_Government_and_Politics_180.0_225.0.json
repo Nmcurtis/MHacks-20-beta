@@ -1,0 +1,711 @@
+{
+  "transcript": "is every year so that they can have a say in the government USA is a republic which means that we elect representatives to govern us and a democracy which means that citizens are allowed to participate this ability to participate is something we take for granted that we shouldn't history tells us that citizen participation is the exception rather than the rule but we're not going to look at history who has time that's what history courses are for with that other guy that's pretty much the only way we can participate in government or politics let's go to the doctors and tell them what you think about a political issue people used to do this by writing letters are sending telegrams but now they tend to call or send email although there's nothing like a good old-fashioned angry letter",
+  "confidence": 0.9714979,
+  "words": [
+    {
+      "startTime": "0s",
+      "endTime": "0.200s",
+      "word": "is"
+    },
+    {
+      "startTime": "0.200s",
+      "endTime": "0.400s",
+      "word": "every"
+    },
+    {
+      "startTime": "0.400s",
+      "endTime": "0.500s",
+      "word": "year"
+    },
+    {
+      "startTime": "0.500s",
+      "endTime": "0.600s",
+      "word": "so"
+    },
+    {
+      "startTime": "0.600s",
+      "endTime": "0.700s",
+      "word": "that"
+    },
+    {
+      "startTime": "0.700s",
+      "endTime": "0.900s",
+      "word": "they"
+    },
+    {
+      "startTime": "0.900s",
+      "endTime": "1.100s",
+      "word": "can"
+    },
+    {
+      "startTime": "1.100s",
+      "endTime": "1.100s",
+      "word": "have"
+    },
+    {
+      "startTime": "1.100s",
+      "endTime": "1.200s",
+      "word": "a"
+    },
+    {
+      "startTime": "1.200s",
+      "endTime": "1.500s",
+      "word": "say"
+    },
+    {
+      "startTime": "1.500s",
+      "endTime": "1.500s",
+      "word": "in"
+    },
+    {
+      "startTime": "1.500s",
+      "endTime": "1.700s",
+      "word": "the"
+    },
+    {
+      "startTime": "1.700s",
+      "endTime": "1.900s",
+      "word": "government"
+    },
+    {
+      "startTime": "1.900s",
+      "endTime": "2.300s",
+      "word": "USA"
+    },
+    {
+      "startTime": "2.300s",
+      "endTime": "2.600s",
+      "word": "is"
+    },
+    {
+      "startTime": "2.600s",
+      "endTime": "2.600s",
+      "word": "a"
+    },
+    {
+      "startTime": "2.600s",
+      "endTime": "2.700s",
+      "word": "republic"
+    },
+    {
+      "startTime": "2.700s",
+      "endTime": "3.200s",
+      "word": "which"
+    },
+    {
+      "startTime": "3.200s",
+      "endTime": "3.400s",
+      "word": "means"
+    },
+    {
+      "startTime": "3.400s",
+      "endTime": "3.400s",
+      "word": "that"
+    },
+    {
+      "startTime": "3.400s",
+      "endTime": "3.600s",
+      "word": "we"
+    },
+    {
+      "startTime": "3.600s",
+      "endTime": "3.900s",
+      "word": "elect"
+    },
+    {
+      "startTime": "3.900s",
+      "endTime": "4s",
+      "word": "representatives"
+    },
+    {
+      "startTime": "4s",
+      "endTime": "4.700s",
+      "word": "to"
+    },
+    {
+      "startTime": "4.700s",
+      "endTime": "4.900s",
+      "word": "govern"
+    },
+    {
+      "startTime": "4.900s",
+      "endTime": "5.300s",
+      "word": "us"
+    },
+    {
+      "startTime": "5.300s",
+      "endTime": "5.500s",
+      "word": "and"
+    },
+    {
+      "startTime": "5.500s",
+      "endTime": "5.500s",
+      "word": "a"
+    },
+    {
+      "startTime": "5.500s",
+      "endTime": "5.700s",
+      "word": "democracy"
+    },
+    {
+      "startTime": "5.700s",
+      "endTime": "6.200s",
+      "word": "which"
+    },
+    {
+      "startTime": "6.200s",
+      "endTime": "6.400s",
+      "word": "means"
+    },
+    {
+      "startTime": "6.400s",
+      "endTime": "6.500s",
+      "word": "that"
+    },
+    {
+      "startTime": "6.500s",
+      "endTime": "6.700s",
+      "word": "citizens"
+    },
+    {
+      "startTime": "6.700s",
+      "endTime": "7.100s",
+      "word": "are"
+    },
+    {
+      "startTime": "7.100s",
+      "endTime": "7.200s",
+      "word": "allowed"
+    },
+    {
+      "startTime": "7.200s",
+      "endTime": "7.400s",
+      "word": "to"
+    },
+    {
+      "startTime": "7.400s",
+      "endTime": "7.600s",
+      "word": "participate"
+    },
+    {
+      "startTime": "7.600s",
+      "endTime": "8.300s",
+      "word": "this"
+    },
+    {
+      "startTime": "8.300s",
+      "endTime": "8.800s",
+      "word": "ability"
+    },
+    {
+      "startTime": "8.800s",
+      "endTime": "8.900s",
+      "word": "to"
+    },
+    {
+      "startTime": "8.900s",
+      "endTime": "9.100s",
+      "word": "participate"
+    },
+    {
+      "startTime": "9.100s",
+      "endTime": "9.600s",
+      "word": "is"
+    },
+    {
+      "startTime": "9.600s",
+      "endTime": "9.800s",
+      "word": "something"
+    },
+    {
+      "startTime": "9.800s",
+      "endTime": "10s",
+      "word": "we"
+    },
+    {
+      "startTime": "10s",
+      "endTime": "10.100s",
+      "word": "take"
+    },
+    {
+      "startTime": "10.100s",
+      "endTime": "10.200s",
+      "word": "for"
+    },
+    {
+      "startTime": "10.200s",
+      "endTime": "10.300s",
+      "word": "granted"
+    },
+    {
+      "startTime": "10.300s",
+      "endTime": "10.800s",
+      "word": "that"
+    },
+    {
+      "startTime": "10.800s",
+      "endTime": "11s",
+      "word": "we"
+    },
+    {
+      "startTime": "11s",
+      "endTime": "11.300s",
+      "word": "shouldn't"
+    },
+    {
+      "startTime": "11.300s",
+      "endTime": "11.600s",
+      "word": "history"
+    },
+    {
+      "startTime": "11.600s",
+      "endTime": "11.900s",
+      "word": "tells"
+    },
+    {
+      "startTime": "11.900s",
+      "endTime": "11.900s",
+      "word": "us"
+    },
+    {
+      "startTime": "11.900s",
+      "endTime": "12.100s",
+      "word": "that"
+    },
+    {
+      "startTime": "12.100s",
+      "endTime": "12.600s",
+      "word": "citizen"
+    },
+    {
+      "startTime": "12.600s",
+      "endTime": "13.200s",
+      "word": "participation"
+    },
+    {
+      "startTime": "13.200s",
+      "endTime": "13.400s",
+      "word": "is"
+    },
+    {
+      "startTime": "13.400s",
+      "endTime": "13.500s",
+      "word": "the"
+    },
+    {
+      "startTime": "13.500s",
+      "endTime": "13.800s",
+      "word": "exception"
+    },
+    {
+      "startTime": "13.800s",
+      "endTime": "14s",
+      "word": "rather"
+    },
+    {
+      "startTime": "14s",
+      "endTime": "14.400s",
+      "word": "than"
+    },
+    {
+      "startTime": "14.400s",
+      "endTime": "14.400s",
+      "word": "the"
+    },
+    {
+      "startTime": "14.400s",
+      "endTime": "14.600s",
+      "word": "rule"
+    },
+    {
+      "startTime": "14.600s",
+      "endTime": "14.800s",
+      "word": "but"
+    },
+    {
+      "startTime": "14.800s",
+      "endTime": "15s",
+      "word": "we're"
+    },
+    {
+      "startTime": "15s",
+      "endTime": "15.100s",
+      "word": "not"
+    },
+    {
+      "startTime": "15.100s",
+      "endTime": "15.200s",
+      "word": "going"
+    },
+    {
+      "startTime": "15.200s",
+      "endTime": "15.200s",
+      "word": "to"
+    },
+    {
+      "startTime": "15.200s",
+      "endTime": "15.300s",
+      "word": "look"
+    },
+    {
+      "startTime": "15.300s",
+      "endTime": "15.400s",
+      "word": "at"
+    },
+    {
+      "startTime": "15.400s",
+      "endTime": "15.600s",
+      "word": "history"
+    },
+    {
+      "startTime": "15.600s",
+      "endTime": "15.900s",
+      "word": "who"
+    },
+    {
+      "startTime": "15.900s",
+      "endTime": "16.200s",
+      "word": "has"
+    },
+    {
+      "startTime": "16.200s",
+      "endTime": "16.600s",
+      "word": "time"
+    },
+    {
+      "startTime": "16.600s",
+      "endTime": "16.800s",
+      "word": "that's"
+    },
+    {
+      "startTime": "16.800s",
+      "endTime": "16.900s",
+      "word": "what"
+    },
+    {
+      "startTime": "16.900s",
+      "endTime": "17.100s",
+      "word": "history"
+    },
+    {
+      "startTime": "17.100s",
+      "endTime": "17.500s",
+      "word": "courses"
+    },
+    {
+      "startTime": "17.500s",
+      "endTime": "17.800s",
+      "word": "are"
+    },
+    {
+      "startTime": "17.800s",
+      "endTime": "18s",
+      "word": "for"
+    },
+    {
+      "startTime": "18s",
+      "endTime": "18.200s",
+      "word": "with"
+    },
+    {
+      "startTime": "18.200s",
+      "endTime": "18.300s",
+      "word": "that"
+    },
+    {
+      "startTime": "18.300s",
+      "endTime": "18.400s",
+      "word": "other"
+    },
+    {
+      "startTime": "18.400s",
+      "endTime": "18.700s",
+      "word": "guy"
+    },
+    {
+      "startTime": "18.700s",
+      "endTime": "22.600s",
+      "word": "that's"
+    },
+    {
+      "startTime": "22.600s",
+      "endTime": "23s",
+      "word": "pretty"
+    },
+    {
+      "startTime": "23s",
+      "endTime": "23.100s",
+      "word": "much"
+    },
+    {
+      "startTime": "23.100s",
+      "endTime": "23.200s",
+      "word": "the"
+    },
+    {
+      "startTime": "23.200s",
+      "endTime": "23.400s",
+      "word": "only"
+    },
+    {
+      "startTime": "23.400s",
+      "endTime": "23.800s",
+      "word": "way"
+    },
+    {
+      "startTime": "23.800s",
+      "endTime": "23.900s",
+      "word": "we"
+    },
+    {
+      "startTime": "23.900s",
+      "endTime": "24s",
+      "word": "can"
+    },
+    {
+      "startTime": "24s",
+      "endTime": "24.200s",
+      "word": "participate"
+    },
+    {
+      "startTime": "24.200s",
+      "endTime": "24.600s",
+      "word": "in"
+    },
+    {
+      "startTime": "24.600s",
+      "endTime": "24.900s",
+      "word": "government"
+    },
+    {
+      "startTime": "24.900s",
+      "endTime": "25.200s",
+      "word": "or"
+    },
+    {
+      "startTime": "25.200s",
+      "endTime": "25.500s",
+      "word": "politics"
+    },
+    {
+      "startTime": "25.500s",
+      "endTime": "28.600s",
+      "word": "let's"
+    },
+    {
+      "startTime": "28.600s",
+      "endTime": "28.700s",
+      "word": "go"
+    },
+    {
+      "startTime": "28.700s",
+      "endTime": "28.800s",
+      "word": "to"
+    },
+    {
+      "startTime": "28.800s",
+      "endTime": "28.900s",
+      "word": "the"
+    },
+    {
+      "startTime": "28.900s",
+      "endTime": "36.200s",
+      "word": "doctors"
+    },
+    {
+      "startTime": "36.200s",
+      "endTime": "36.300s",
+      "word": "and"
+    },
+    {
+      "startTime": "36.300s",
+      "endTime": "36.400s",
+      "word": "tell"
+    },
+    {
+      "startTime": "36.400s",
+      "endTime": "36.600s",
+      "word": "them"
+    },
+    {
+      "startTime": "36.600s",
+      "endTime": "36.700s",
+      "word": "what"
+    },
+    {
+      "startTime": "36.700s",
+      "endTime": "36.800s",
+      "word": "you"
+    },
+    {
+      "startTime": "36.800s",
+      "endTime": "37s",
+      "word": "think"
+    },
+    {
+      "startTime": "37s",
+      "endTime": "37.100s",
+      "word": "about"
+    },
+    {
+      "startTime": "37.100s",
+      "endTime": "37.300s",
+      "word": "a"
+    },
+    {
+      "startTime": "37.300s",
+      "endTime": "37.400s",
+      "word": "political"
+    },
+    {
+      "startTime": "37.400s",
+      "endTime": "37.700s",
+      "word": "issue"
+    },
+    {
+      "startTime": "37.700s",
+      "endTime": "38.300s",
+      "word": "people"
+    },
+    {
+      "startTime": "38.300s",
+      "endTime": "38.500s",
+      "word": "used"
+    },
+    {
+      "startTime": "38.500s",
+      "endTime": "38.600s",
+      "word": "to"
+    },
+    {
+      "startTime": "38.600s",
+      "endTime": "38.700s",
+      "word": "do"
+    },
+    {
+      "startTime": "38.700s",
+      "endTime": "38.800s",
+      "word": "this"
+    },
+    {
+      "startTime": "38.800s",
+      "endTime": "39s",
+      "word": "by"
+    },
+    {
+      "startTime": "39s",
+      "endTime": "39.300s",
+      "word": "writing"
+    },
+    {
+      "startTime": "39.300s",
+      "endTime": "39.600s",
+      "word": "letters"
+    },
+    {
+      "startTime": "39.600s",
+      "endTime": "39.700s",
+      "word": "are"
+    },
+    {
+      "startTime": "39.700s",
+      "endTime": "40s",
+      "word": "sending"
+    },
+    {
+      "startTime": "40s",
+      "endTime": "40.500s",
+      "word": "telegrams"
+    },
+    {
+      "startTime": "40.500s",
+      "endTime": "40.700s",
+      "word": "but"
+    },
+    {
+      "startTime": "40.700s",
+      "endTime": "40.800s",
+      "word": "now"
+    },
+    {
+      "startTime": "40.800s",
+      "endTime": "41s",
+      "word": "they"
+    },
+    {
+      "startTime": "41s",
+      "endTime": "41.100s",
+      "word": "tend"
+    },
+    {
+      "startTime": "41.100s",
+      "endTime": "41.200s",
+      "word": "to"
+    },
+    {
+      "startTime": "41.200s",
+      "endTime": "41.500s",
+      "word": "call"
+    },
+    {
+      "startTime": "41.500s",
+      "endTime": "41.600s",
+      "word": "or"
+    },
+    {
+      "startTime": "41.600s",
+      "endTime": "41.700s",
+      "word": "send"
+    },
+    {
+      "startTime": "41.700s",
+      "endTime": "42.200s",
+      "word": "email"
+    },
+    {
+      "startTime": "42.200s",
+      "endTime": "42.700s",
+      "word": "although"
+    },
+    {
+      "startTime": "42.700s",
+      "endTime": "42.900s",
+      "word": "there's"
+    },
+    {
+      "startTime": "42.900s",
+      "endTime": "43.200s",
+      "word": "nothing"
+    },
+    {
+      "startTime": "43.200s",
+      "endTime": "43.300s",
+      "word": "like"
+    },
+    {
+      "startTime": "43.300s",
+      "endTime": "43.400s",
+      "word": "a"
+    },
+    {
+      "startTime": "43.400s",
+      "endTime": "43.600s",
+      "word": "good"
+    },
+    {
+      "startTime": "43.600s",
+      "endTime": "44.300s",
+      "word": "old-fashioned"
+    },
+    {
+      "startTime": "44.300s",
+      "endTime": "44.700s",
+      "word": "angry"
+    },
+    {
+      "startTime": "44.700s",
+      "endTime": "44.900s",
+      "word": "letter"
+    }
+  ]
+}
