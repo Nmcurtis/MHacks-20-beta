@@ -1,0 +1,596 @@
+{
+  "transcript": "in JR's World Gandalf is one of five wizards sent by the Valour to guide the inhabitants of Middle-earth in their struggles against the dark Forces Sauron Gandalf's body was Mortal subject to the physical rules of Middle-earth but his Spirit was Immortals as seen when he died as Gandalf the Grey and resurrected is Gandalf the White according to the Wachowski a script and awaken human only has to link up and hack the neon binary code of the Matrix to learn how to fly a helicopter in a matter of seconds or if you are the one or one of the ones you don't even need a helicopter you just need a cool pair of shades",
+  "confidence": 0.9694001,
+  "words": [
+    {
+      "startTime": "7.200s",
+      "endTime": "7.600s",
+      "word": "in"
+    },
+    {
+      "startTime": "7.600s",
+      "endTime": "8.100s",
+      "word": "JR's"
+    },
+    {
+      "startTime": "8.100s",
+      "endTime": "9s",
+      "word": "World"
+    },
+    {
+      "startTime": "9s",
+      "endTime": "9.600s",
+      "word": "Gandalf"
+    },
+    {
+      "startTime": "9.600s",
+      "endTime": "9.800s",
+      "word": "is"
+    },
+    {
+      "startTime": "9.800s",
+      "endTime": "10s",
+      "word": "one"
+    },
+    {
+      "startTime": "10s",
+      "endTime": "10.200s",
+      "word": "of"
+    },
+    {
+      "startTime": "10.200s",
+      "endTime": "10.500s",
+      "word": "five"
+    },
+    {
+      "startTime": "10.500s",
+      "endTime": "10.900s",
+      "word": "wizards"
+    },
+    {
+      "startTime": "10.900s",
+      "endTime": "11.400s",
+      "word": "sent"
+    },
+    {
+      "startTime": "11.400s",
+      "endTime": "11.600s",
+      "word": "by"
+    },
+    {
+      "startTime": "11.600s",
+      "endTime": "11.700s",
+      "word": "the"
+    },
+    {
+      "startTime": "11.700s",
+      "endTime": "12.200s",
+      "word": "Valour"
+    },
+    {
+      "startTime": "12.200s",
+      "endTime": "12.500s",
+      "word": "to"
+    },
+    {
+      "startTime": "12.500s",
+      "endTime": "12.800s",
+      "word": "guide"
+    },
+    {
+      "startTime": "12.800s",
+      "endTime": "12.900s",
+      "word": "the"
+    },
+    {
+      "startTime": "12.900s",
+      "endTime": "13.600s",
+      "word": "inhabitants"
+    },
+    {
+      "startTime": "13.600s",
+      "endTime": "13.800s",
+      "word": "of"
+    },
+    {
+      "startTime": "13.800s",
+      "endTime": "14.400s",
+      "word": "Middle-earth"
+    },
+    {
+      "startTime": "14.400s",
+      "endTime": "14.700s",
+      "word": "in"
+    },
+    {
+      "startTime": "14.700s",
+      "endTime": "14.800s",
+      "word": "their"
+    },
+    {
+      "startTime": "14.800s",
+      "endTime": "15.500s",
+      "word": "struggles"
+    },
+    {
+      "startTime": "15.500s",
+      "endTime": "15.900s",
+      "word": "against"
+    },
+    {
+      "startTime": "15.900s",
+      "endTime": "16s",
+      "word": "the"
+    },
+    {
+      "startTime": "16s",
+      "endTime": "16.300s",
+      "word": "dark"
+    },
+    {
+      "startTime": "16.300s",
+      "endTime": "16.400s",
+      "word": "Forces"
+    },
+    {
+      "startTime": "16.400s",
+      "endTime": "17.400s",
+      "word": "Sauron"
+    },
+    {
+      "startTime": "17.400s",
+      "endTime": "18.500s",
+      "word": "Gandalf's"
+    },
+    {
+      "startTime": "18.500s",
+      "endTime": "18.900s",
+      "word": "body"
+    },
+    {
+      "startTime": "18.900s",
+      "endTime": "19.200s",
+      "word": "was"
+    },
+    {
+      "startTime": "19.200s",
+      "endTime": "19.700s",
+      "word": "Mortal"
+    },
+    {
+      "startTime": "19.700s",
+      "endTime": "20.400s",
+      "word": "subject"
+    },
+    {
+      "startTime": "20.400s",
+      "endTime": "20.500s",
+      "word": "to"
+    },
+    {
+      "startTime": "20.500s",
+      "endTime": "20.600s",
+      "word": "the"
+    },
+    {
+      "startTime": "20.600s",
+      "endTime": "21s",
+      "word": "physical"
+    },
+    {
+      "startTime": "21s",
+      "endTime": "21.200s",
+      "word": "rules"
+    },
+    {
+      "startTime": "21.200s",
+      "endTime": "21.600s",
+      "word": "of"
+    },
+    {
+      "startTime": "21.600s",
+      "endTime": "22.100s",
+      "word": "Middle-earth"
+    },
+    {
+      "startTime": "22.100s",
+      "endTime": "22.800s",
+      "word": "but"
+    },
+    {
+      "startTime": "22.800s",
+      "endTime": "23s",
+      "word": "his"
+    },
+    {
+      "startTime": "23s",
+      "endTime": "23.500s",
+      "word": "Spirit"
+    },
+    {
+      "startTime": "23.500s",
+      "endTime": "23.700s",
+      "word": "was"
+    },
+    {
+      "startTime": "23.700s",
+      "endTime": "24.500s",
+      "word": "Immortals"
+    },
+    {
+      "startTime": "24.500s",
+      "endTime": "24.800s",
+      "word": "as"
+    },
+    {
+      "startTime": "24.800s",
+      "endTime": "25.100s",
+      "word": "seen"
+    },
+    {
+      "startTime": "25.100s",
+      "endTime": "25.200s",
+      "word": "when"
+    },
+    {
+      "startTime": "25.200s",
+      "endTime": "25.300s",
+      "word": "he"
+    },
+    {
+      "startTime": "25.300s",
+      "endTime": "25.500s",
+      "word": "died"
+    },
+    {
+      "startTime": "25.500s",
+      "endTime": "25.800s",
+      "word": "as"
+    },
+    {
+      "startTime": "25.800s",
+      "endTime": "26.200s",
+      "word": "Gandalf"
+    },
+    {
+      "startTime": "26.200s",
+      "endTime": "26.400s",
+      "word": "the"
+    },
+    {
+      "startTime": "26.400s",
+      "endTime": "26.700s",
+      "word": "Grey"
+    },
+    {
+      "startTime": "26.700s",
+      "endTime": "27s",
+      "word": "and"
+    },
+    {
+      "startTime": "27s",
+      "endTime": "27.800s",
+      "word": "resurrected"
+    },
+    {
+      "startTime": "27.800s",
+      "endTime": "28s",
+      "word": "is"
+    },
+    {
+      "startTime": "28s",
+      "endTime": "28.400s",
+      "word": "Gandalf"
+    },
+    {
+      "startTime": "28.400s",
+      "endTime": "28.600s",
+      "word": "the"
+    },
+    {
+      "startTime": "28.600s",
+      "endTime": "28.800s",
+      "word": "White"
+    },
+    {
+      "startTime": "28.800s",
+      "endTime": "30.200s",
+      "word": "according"
+    },
+    {
+      "startTime": "30.200s",
+      "endTime": "30.300s",
+      "word": "to"
+    },
+    {
+      "startTime": "30.300s",
+      "endTime": "30.500s",
+      "word": "the"
+    },
+    {
+      "startTime": "30.500s",
+      "endTime": "31.100s",
+      "word": "Wachowski"
+    },
+    {
+      "startTime": "31.100s",
+      "endTime": "31.200s",
+      "word": "a"
+    },
+    {
+      "startTime": "31.200s",
+      "endTime": "31.700s",
+      "word": "script"
+    },
+    {
+      "startTime": "31.700s",
+      "endTime": "32s",
+      "word": "and"
+    },
+    {
+      "startTime": "32s",
+      "endTime": "32.600s",
+      "word": "awaken"
+    },
+    {
+      "startTime": "32.600s",
+      "endTime": "33.100s",
+      "word": "human"
+    },
+    {
+      "startTime": "33.100s",
+      "endTime": "33.400s",
+      "word": "only"
+    },
+    {
+      "startTime": "33.400s",
+      "endTime": "33.700s",
+      "word": "has"
+    },
+    {
+      "startTime": "33.700s",
+      "endTime": "33.900s",
+      "word": "to"
+    },
+    {
+      "startTime": "33.900s",
+      "endTime": "34.300s",
+      "word": "link"
+    },
+    {
+      "startTime": "34.300s",
+      "endTime": "34.500s",
+      "word": "up"
+    },
+    {
+      "startTime": "34.500s",
+      "endTime": "34.700s",
+      "word": "and"
+    },
+    {
+      "startTime": "34.700s",
+      "endTime": "35.300s",
+      "word": "hack"
+    },
+    {
+      "startTime": "35.300s",
+      "endTime": "35.400s",
+      "word": "the"
+    },
+    {
+      "startTime": "35.400s",
+      "endTime": "35.900s",
+      "word": "neon"
+    },
+    {
+      "startTime": "35.900s",
+      "endTime": "36.500s",
+      "word": "binary"
+    },
+    {
+      "startTime": "36.500s",
+      "endTime": "36.800s",
+      "word": "code"
+    },
+    {
+      "startTime": "36.800s",
+      "endTime": "36.900s",
+      "word": "of"
+    },
+    {
+      "startTime": "36.900s",
+      "endTime": "37s",
+      "word": "the"
+    },
+    {
+      "startTime": "37s",
+      "endTime": "37.500s",
+      "word": "Matrix"
+    },
+    {
+      "startTime": "37.500s",
+      "endTime": "38s",
+      "word": "to"
+    },
+    {
+      "startTime": "38s",
+      "endTime": "38.400s",
+      "word": "learn"
+    },
+    {
+      "startTime": "38.400s",
+      "endTime": "38.500s",
+      "word": "how"
+    },
+    {
+      "startTime": "38.500s",
+      "endTime": "38.600s",
+      "word": "to"
+    },
+    {
+      "startTime": "38.600s",
+      "endTime": "38.900s",
+      "word": "fly"
+    },
+    {
+      "startTime": "38.900s",
+      "endTime": "39s",
+      "word": "a"
+    },
+    {
+      "startTime": "39s",
+      "endTime": "39.100s",
+      "word": "helicopter"
+    },
+    {
+      "startTime": "39.100s",
+      "endTime": "39.900s",
+      "word": "in"
+    },
+    {
+      "startTime": "39.900s",
+      "endTime": "40.100s",
+      "word": "a"
+    },
+    {
+      "startTime": "40.100s",
+      "endTime": "40.400s",
+      "word": "matter"
+    },
+    {
+      "startTime": "40.400s",
+      "endTime": "40.500s",
+      "word": "of"
+    },
+    {
+      "startTime": "40.500s",
+      "endTime": "41.100s",
+      "word": "seconds"
+    },
+    {
+      "startTime": "41.100s",
+      "endTime": "42s",
+      "word": "or"
+    },
+    {
+      "startTime": "42s",
+      "endTime": "42.200s",
+      "word": "if"
+    },
+    {
+      "startTime": "42.200s",
+      "endTime": "42.400s",
+      "word": "you"
+    },
+    {
+      "startTime": "42.400s",
+      "endTime": "42.500s",
+      "word": "are"
+    },
+    {
+      "startTime": "42.500s",
+      "endTime": "42.700s",
+      "word": "the"
+    },
+    {
+      "startTime": "42.700s",
+      "endTime": "42.800s",
+      "word": "one"
+    },
+    {
+      "startTime": "42.800s",
+      "endTime": "43.500s",
+      "word": "or"
+    },
+    {
+      "startTime": "43.500s",
+      "endTime": "43.800s",
+      "word": "one"
+    },
+    {
+      "startTime": "43.800s",
+      "endTime": "43.900s",
+      "word": "of"
+    },
+    {
+      "startTime": "43.900s",
+      "endTime": "44s",
+      "word": "the"
+    },
+    {
+      "startTime": "44s",
+      "endTime": "44.400s",
+      "word": "ones"
+    },
+    {
+      "startTime": "44.400s",
+      "endTime": "44.800s",
+      "word": "you"
+    },
+    {
+      "startTime": "44.800s",
+      "endTime": "44.900s",
+      "word": "don't"
+    },
+    {
+      "startTime": "44.900s",
+      "endTime": "45.200s",
+      "word": "even"
+    },
+    {
+      "startTime": "45.200s",
+      "endTime": "45.400s",
+      "word": "need"
+    },
+    {
+      "startTime": "45.400s",
+      "endTime": "45.500s",
+      "word": "a"
+    },
+    {
+      "startTime": "45.500s",
+      "endTime": "45.800s",
+      "word": "helicopter"
+    },
+    {
+      "startTime": "45.800s",
+      "endTime": "46.700s",
+      "word": "you"
+    },
+    {
+      "startTime": "46.700s",
+      "endTime": "46.900s",
+      "word": "just"
+    },
+    {
+      "startTime": "46.900s",
+      "endTime": "47s",
+      "word": "need"
+    },
+    {
+      "startTime": "47s",
+      "endTime": "47.100s",
+      "word": "a"
+    },
+    {
+      "startTime": "47.100s",
+      "endTime": "47.400s",
+      "word": "cool"
+    },
+    {
+      "startTime": "47.400s",
+      "endTime": "47.600s",
+      "word": "pair"
+    },
+    {
+      "startTime": "47.600s",
+      "endTime": "47.700s",
+      "word": "of"
+    },
+    {
+      "startTime": "47.700s",
+      "endTime": "48.100s",
+      "word": "shades"
+    }
+  ]
+}

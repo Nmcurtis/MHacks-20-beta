@@ -1,0 +1,791 @@
+{
+  "transcript": "hi I'm Craig and this is Crash Course government and politics and today we're going to talk about what is if you ask the general public the most important part of politics elections he asked me is hairstyles look at Martin van Buren sideburns how could he not be elected Americans are kind of obsessed with elections I mean when this is being recorded in early 2015 television news and the internet were already talking about who would be Democrat and Republican candidates for president in 2016 how many of the candidates have unofficially been campaigning for years I've been campaigning your grandma's been campaigning why were subsets of them is a topic for another day right now I'm going to tell you that the fixation on the presidential elections is wrong but not because the president doesn't matter no today really look at the elections of the people that are supposed to matter the most Congress",
+  "confidence": 0.964218,
+  "words": [
+    {
+      "startTime": "3s",
+      "endTime": "3.400s",
+      "word": "hi"
+    },
+    {
+      "startTime": "3.400s",
+      "endTime": "3.900s",
+      "word": "I'm"
+    },
+    {
+      "startTime": "3.900s",
+      "endTime": "4.200s",
+      "word": "Craig"
+    },
+    {
+      "startTime": "4.200s",
+      "endTime": "4.400s",
+      "word": "and"
+    },
+    {
+      "startTime": "4.400s",
+      "endTime": "4.500s",
+      "word": "this"
+    },
+    {
+      "startTime": "4.500s",
+      "endTime": "4.600s",
+      "word": "is"
+    },
+    {
+      "startTime": "4.600s",
+      "endTime": "4.900s",
+      "word": "Crash"
+    },
+    {
+      "startTime": "4.900s",
+      "endTime": "5.200s",
+      "word": "Course"
+    },
+    {
+      "startTime": "5.200s",
+      "endTime": "5.500s",
+      "word": "government"
+    },
+    {
+      "startTime": "5.500s",
+      "endTime": "5.600s",
+      "word": "and"
+    },
+    {
+      "startTime": "5.600s",
+      "endTime": "6s",
+      "word": "politics"
+    },
+    {
+      "startTime": "6s",
+      "endTime": "6.500s",
+      "word": "and"
+    },
+    {
+      "startTime": "6.500s",
+      "endTime": "6.700s",
+      "word": "today"
+    },
+    {
+      "startTime": "6.700s",
+      "endTime": "6.900s",
+      "word": "we're"
+    },
+    {
+      "startTime": "6.900s",
+      "endTime": "6.900s",
+      "word": "going"
+    },
+    {
+      "startTime": "6.900s",
+      "endTime": "7s",
+      "word": "to"
+    },
+    {
+      "startTime": "7s",
+      "endTime": "7.100s",
+      "word": "talk"
+    },
+    {
+      "startTime": "7.100s",
+      "endTime": "7.300s",
+      "word": "about"
+    },
+    {
+      "startTime": "7.300s",
+      "endTime": "7.500s",
+      "word": "what"
+    },
+    {
+      "startTime": "7.500s",
+      "endTime": "7.900s",
+      "word": "is"
+    },
+    {
+      "startTime": "7.900s",
+      "endTime": "8.100s",
+      "word": "if"
+    },
+    {
+      "startTime": "8.100s",
+      "endTime": "8.200s",
+      "word": "you"
+    },
+    {
+      "startTime": "8.200s",
+      "endTime": "8.500s",
+      "word": "ask"
+    },
+    {
+      "startTime": "8.500s",
+      "endTime": "8.600s",
+      "word": "the"
+    },
+    {
+      "startTime": "8.600s",
+      "endTime": "8.800s",
+      "word": "general"
+    },
+    {
+      "startTime": "8.800s",
+      "endTime": "9.300s",
+      "word": "public"
+    },
+    {
+      "startTime": "9.300s",
+      "endTime": "9.500s",
+      "word": "the"
+    },
+    {
+      "startTime": "9.500s",
+      "endTime": "9.800s",
+      "word": "most"
+    },
+    {
+      "startTime": "9.800s",
+      "endTime": "10.200s",
+      "word": "important"
+    },
+    {
+      "startTime": "10.200s",
+      "endTime": "10.400s",
+      "word": "part"
+    },
+    {
+      "startTime": "10.400s",
+      "endTime": "10.400s",
+      "word": "of"
+    },
+    {
+      "startTime": "10.400s",
+      "endTime": "10.800s",
+      "word": "politics"
+    },
+    {
+      "startTime": "10.800s",
+      "endTime": "12s",
+      "word": "elections"
+    },
+    {
+      "startTime": "12s",
+      "endTime": "12.700s",
+      "word": "he"
+    },
+    {
+      "startTime": "12.700s",
+      "endTime": "12.900s",
+      "word": "asked"
+    },
+    {
+      "startTime": "12.900s",
+      "endTime": "13s",
+      "word": "me"
+    },
+    {
+      "startTime": "13s",
+      "endTime": "13.400s",
+      "word": "is"
+    },
+    {
+      "startTime": "13.400s",
+      "endTime": "13.900s",
+      "word": "hairstyles"
+    },
+    {
+      "startTime": "13.900s",
+      "endTime": "14.500s",
+      "word": "look"
+    },
+    {
+      "startTime": "14.500s",
+      "endTime": "14.600s",
+      "word": "at"
+    },
+    {
+      "startTime": "14.600s",
+      "endTime": "14.900s",
+      "word": "Martin"
+    },
+    {
+      "startTime": "14.900s",
+      "endTime": "15.100s",
+      "word": "van"
+    },
+    {
+      "startTime": "15.100s",
+      "endTime": "15.300s",
+      "word": "Buren"
+    },
+    {
+      "startTime": "15.300s",
+      "endTime": "15.900s",
+      "word": "sideburns"
+    },
+    {
+      "startTime": "15.900s",
+      "endTime": "16.800s",
+      "word": "how"
+    },
+    {
+      "startTime": "16.800s",
+      "endTime": "17s",
+      "word": "could"
+    },
+    {
+      "startTime": "17s",
+      "endTime": "17s",
+      "word": "he"
+    },
+    {
+      "startTime": "17s",
+      "endTime": "17.100s",
+      "word": "not"
+    },
+    {
+      "startTime": "17.100s",
+      "endTime": "17.300s",
+      "word": "be"
+    },
+    {
+      "startTime": "17.300s",
+      "endTime": "17.700s",
+      "word": "elected"
+    },
+    {
+      "startTime": "17.700s",
+      "endTime": "18.200s",
+      "word": "Americans"
+    },
+    {
+      "startTime": "18.200s",
+      "endTime": "18.300s",
+      "word": "are"
+    },
+    {
+      "startTime": "18.300s",
+      "endTime": "18.500s",
+      "word": "kind"
+    },
+    {
+      "startTime": "18.500s",
+      "endTime": "18.600s",
+      "word": "of"
+    },
+    {
+      "startTime": "18.600s",
+      "endTime": "19s",
+      "word": "obsessed"
+    },
+    {
+      "startTime": "19s",
+      "endTime": "19.100s",
+      "word": "with"
+    },
+    {
+      "startTime": "19.100s",
+      "endTime": "19.600s",
+      "word": "elections"
+    },
+    {
+      "startTime": "19.600s",
+      "endTime": "19.700s",
+      "word": "I"
+    },
+    {
+      "startTime": "19.700s",
+      "endTime": "19.900s",
+      "word": "mean"
+    },
+    {
+      "startTime": "19.900s",
+      "endTime": "20s",
+      "word": "when"
+    },
+    {
+      "startTime": "20s",
+      "endTime": "20.200s",
+      "word": "this"
+    },
+    {
+      "startTime": "20.200s",
+      "endTime": "20.300s",
+      "word": "is"
+    },
+    {
+      "startTime": "20.300s",
+      "endTime": "20.500s",
+      "word": "being"
+    },
+    {
+      "startTime": "20.500s",
+      "endTime": "20.600s",
+      "word": "recorded"
+    },
+    {
+      "startTime": "20.600s",
+      "endTime": "21.100s",
+      "word": "in"
+    },
+    {
+      "startTime": "21.100s",
+      "endTime": "21.300s",
+      "word": "early"
+    },
+    {
+      "startTime": "21.300s",
+      "endTime": "22s",
+      "word": "2015"
+    },
+    {
+      "startTime": "22s",
+      "endTime": "22.400s",
+      "word": "television"
+    },
+    {
+      "startTime": "22.400s",
+      "endTime": "22.800s",
+      "word": "news"
+    },
+    {
+      "startTime": "22.800s",
+      "endTime": "23s",
+      "word": "and"
+    },
+    {
+      "startTime": "23s",
+      "endTime": "23.100s",
+      "word": "the"
+    },
+    {
+      "startTime": "23.100s",
+      "endTime": "23.200s",
+      "word": "internet"
+    },
+    {
+      "startTime": "23.200s",
+      "endTime": "23.600s",
+      "word": "were"
+    },
+    {
+      "startTime": "23.600s",
+      "endTime": "23.800s",
+      "word": "already"
+    },
+    {
+      "startTime": "23.800s",
+      "endTime": "24.100s",
+      "word": "talking"
+    },
+    {
+      "startTime": "24.100s",
+      "endTime": "24.400s",
+      "word": "about"
+    },
+    {
+      "startTime": "24.400s",
+      "endTime": "24.700s",
+      "word": "who"
+    },
+    {
+      "startTime": "24.700s",
+      "endTime": "24.800s",
+      "word": "would"
+    },
+    {
+      "startTime": "24.800s",
+      "endTime": "25s",
+      "word": "be"
+    },
+    {
+      "startTime": "25s",
+      "endTime": "25.500s",
+      "word": "Democrat"
+    },
+    {
+      "startTime": "25.500s",
+      "endTime": "25.700s",
+      "word": "and"
+    },
+    {
+      "startTime": "25.700s",
+      "endTime": "26.100s",
+      "word": "Republican"
+    },
+    {
+      "startTime": "26.100s",
+      "endTime": "26.500s",
+      "word": "candidates"
+    },
+    {
+      "startTime": "26.500s",
+      "endTime": "26.600s",
+      "word": "for"
+    },
+    {
+      "startTime": "26.600s",
+      "endTime": "27.100s",
+      "word": "president"
+    },
+    {
+      "startTime": "27.100s",
+      "endTime": "27.200s",
+      "word": "in"
+    },
+    {
+      "startTime": "27.200s",
+      "endTime": "27.900s",
+      "word": "2016"
+    },
+    {
+      "startTime": "27.900s",
+      "endTime": "28.400s",
+      "word": "how"
+    },
+    {
+      "startTime": "28.400s",
+      "endTime": "28.600s",
+      "word": "many"
+    },
+    {
+      "startTime": "28.600s",
+      "endTime": "28.700s",
+      "word": "of"
+    },
+    {
+      "startTime": "28.700s",
+      "endTime": "28.800s",
+      "word": "the"
+    },
+    {
+      "startTime": "28.800s",
+      "endTime": "29s",
+      "word": "candidates"
+    },
+    {
+      "startTime": "29s",
+      "endTime": "29.200s",
+      "word": "have"
+    },
+    {
+      "startTime": "29.200s",
+      "endTime": "29.700s",
+      "word": "unofficially"
+    },
+    {
+      "startTime": "29.700s",
+      "endTime": "29.900s",
+      "word": "been"
+    },
+    {
+      "startTime": "29.900s",
+      "endTime": "30.200s",
+      "word": "campaigning"
+    },
+    {
+      "startTime": "30.200s",
+      "endTime": "30.500s",
+      "word": "for"
+    },
+    {
+      "startTime": "30.500s",
+      "endTime": "30.900s",
+      "word": "years"
+    },
+    {
+      "startTime": "30.900s",
+      "endTime": "31.500s",
+      "word": "I've"
+    },
+    {
+      "startTime": "31.500s",
+      "endTime": "31.600s",
+      "word": "been"
+    },
+    {
+      "startTime": "31.600s",
+      "endTime": "32s",
+      "word": "campaigning"
+    },
+    {
+      "startTime": "32s",
+      "endTime": "32.700s",
+      "word": "your"
+    },
+    {
+      "startTime": "32.700s",
+      "endTime": "33.100s",
+      "word": "grandma's"
+    },
+    {
+      "startTime": "33.100s",
+      "endTime": "33.300s",
+      "word": "been"
+    },
+    {
+      "startTime": "33.300s",
+      "endTime": "33.600s",
+      "word": "campaigning"
+    },
+    {
+      "startTime": "33.600s",
+      "endTime": "39.400s",
+      "word": "why"
+    },
+    {
+      "startTime": "39.400s",
+      "endTime": "39.600s",
+      "word": "were"
+    },
+    {
+      "startTime": "39.600s",
+      "endTime": "40s",
+      "word": "subsets"
+    },
+    {
+      "startTime": "40s",
+      "endTime": "40s",
+      "word": "of"
+    },
+    {
+      "startTime": "40s",
+      "endTime": "40.300s",
+      "word": "them"
+    },
+    {
+      "startTime": "40.300s",
+      "endTime": "40.400s",
+      "word": "is"
+    },
+    {
+      "startTime": "40.400s",
+      "endTime": "40.500s",
+      "word": "a"
+    },
+    {
+      "startTime": "40.500s",
+      "endTime": "40.900s",
+      "word": "topic"
+    },
+    {
+      "startTime": "40.900s",
+      "endTime": "41s",
+      "word": "for"
+    },
+    {
+      "startTime": "41s",
+      "endTime": "41.100s",
+      "word": "another"
+    },
+    {
+      "startTime": "41.100s",
+      "endTime": "41.400s",
+      "word": "day"
+    },
+    {
+      "startTime": "41.400s",
+      "endTime": "41.600s",
+      "word": "right"
+    },
+    {
+      "startTime": "41.600s",
+      "endTime": "41.600s",
+      "word": "now"
+    },
+    {
+      "startTime": "41.600s",
+      "endTime": "41.900s",
+      "word": "I'm"
+    },
+    {
+      "startTime": "41.900s",
+      "endTime": "42s",
+      "word": "going"
+    },
+    {
+      "startTime": "42s",
+      "endTime": "42.100s",
+      "word": "to"
+    },
+    {
+      "startTime": "42.100s",
+      "endTime": "42.200s",
+      "word": "tell"
+    },
+    {
+      "startTime": "42.200s",
+      "endTime": "42.300s",
+      "word": "you"
+    },
+    {
+      "startTime": "42.300s",
+      "endTime": "42.500s",
+      "word": "that"
+    },
+    {
+      "startTime": "42.500s",
+      "endTime": "42.500s",
+      "word": "the"
+    },
+    {
+      "startTime": "42.500s",
+      "endTime": "42.900s",
+      "word": "fixation"
+    },
+    {
+      "startTime": "42.900s",
+      "endTime": "43.200s",
+      "word": "on"
+    },
+    {
+      "startTime": "43.200s",
+      "endTime": "43.200s",
+      "word": "the"
+    },
+    {
+      "startTime": "43.200s",
+      "endTime": "43.600s",
+      "word": "presidential"
+    },
+    {
+      "startTime": "43.600s",
+      "endTime": "44.200s",
+      "word": "elections"
+    },
+    {
+      "startTime": "44.200s",
+      "endTime": "44.400s",
+      "word": "is"
+    },
+    {
+      "startTime": "44.400s",
+      "endTime": "44.800s",
+      "word": "wrong"
+    },
+    {
+      "startTime": "44.800s",
+      "endTime": "45.200s",
+      "word": "but"
+    },
+    {
+      "startTime": "45.200s",
+      "endTime": "45.300s",
+      "word": "not"
+    },
+    {
+      "startTime": "45.300s",
+      "endTime": "45.500s",
+      "word": "because"
+    },
+    {
+      "startTime": "45.500s",
+      "endTime": "45.700s",
+      "word": "the"
+    },
+    {
+      "startTime": "45.700s",
+      "endTime": "46.200s",
+      "word": "president"
+    },
+    {
+      "startTime": "46.200s",
+      "endTime": "46.300s",
+      "word": "doesn't"
+    },
+    {
+      "startTime": "46.300s",
+      "endTime": "46.700s",
+      "word": "matter"
+    },
+    {
+      "startTime": "46.700s",
+      "endTime": "47.100s",
+      "word": "no"
+    },
+    {
+      "startTime": "47.100s",
+      "endTime": "47.400s",
+      "word": "today"
+    },
+    {
+      "startTime": "47.400s",
+      "endTime": "47.700s",
+      "word": "really"
+    },
+    {
+      "startTime": "47.700s",
+      "endTime": "47.800s",
+      "word": "look"
+    },
+    {
+      "startTime": "47.800s",
+      "endTime": "47.900s",
+      "word": "at"
+    },
+    {
+      "startTime": "47.900s",
+      "endTime": "48s",
+      "word": "the"
+    },
+    {
+      "startTime": "48s",
+      "endTime": "48.300s",
+      "word": "elections"
+    },
+    {
+      "startTime": "48.300s",
+      "endTime": "48.400s",
+      "word": "of"
+    },
+    {
+      "startTime": "48.400s",
+      "endTime": "48.400s",
+      "word": "the"
+    },
+    {
+      "startTime": "48.400s",
+      "endTime": "48.700s",
+      "word": "people"
+    },
+    {
+      "startTime": "48.700s",
+      "endTime": "48.800s",
+      "word": "that"
+    },
+    {
+      "startTime": "48.800s",
+      "endTime": "48.800s",
+      "word": "are"
+    },
+    {
+      "startTime": "48.800s",
+      "endTime": "49.300s",
+      "word": "supposed"
+    },
+    {
+      "startTime": "49.300s",
+      "endTime": "49.400s",
+      "word": "to"
+    },
+    {
+      "startTime": "49.400s",
+      "endTime": "49.600s",
+      "word": "matter"
+    },
+    {
+      "startTime": "49.600s",
+      "endTime": "49.700s",
+      "word": "the"
+    },
+    {
+      "startTime": "49.700s",
+      "endTime": "49.900s",
+      "word": "most"
+    },
+    {
+      "startTime": "49.900s",
+      "endTime": "50.900s",
+      "word": "Congress"
+    }
+  ]
+}

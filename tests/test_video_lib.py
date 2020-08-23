@@ -23,5 +23,8 @@ def test_convert_mp4_to_wav():
     assert os.path.exists(f"../audio_files/TwentyOne")
 
 
+def test_get_wav_transcript_from_uri():
+    vid_lib.get_wav_transcript_from_uri(f"gs://classroom_1/twenty_one.wav")
+
 
     

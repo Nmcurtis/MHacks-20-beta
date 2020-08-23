@@ -1,0 +1,156 @@
+{
+  "transcript": "hi I'm Craig I'm not John Green but I do have patches on my elbow so I seem smart and this is Crash Course government and politics a new show",
+  "confidence": 0.94409883,
+  "words": [
+    {
+      "startTime": "3.400s",
+      "endTime": "3.800s",
+      "word": "hi"
+    },
+    {
+      "startTime": "3.800s",
+      "endTime": "4.400s",
+      "word": "I'm"
+    },
+    {
+      "startTime": "4.400s",
+      "endTime": "4.900s",
+      "word": "Craig"
+    },
+    {
+      "startTime": "4.900s",
+      "endTime": "5.100s",
+      "word": "I'm"
+    },
+    {
+      "startTime": "5.100s",
+      "endTime": "5.300s",
+      "word": "not"
+    },
+    {
+      "startTime": "5.300s",
+      "endTime": "5.500s",
+      "word": "John"
+    },
+    {
+      "startTime": "5.500s",
+      "endTime": "5.800s",
+      "word": "Green"
+    },
+    {
+      "startTime": "5.800s",
+      "endTime": "5.900s",
+      "word": "but"
+    },
+    {
+      "startTime": "5.900s",
+      "endTime": "6s",
+      "word": "I"
+    },
+    {
+      "startTime": "6s",
+      "endTime": "6.100s",
+      "word": "do"
+    },
+    {
+      "startTime": "6.100s",
+      "endTime": "6.400s",
+      "word": "have"
+    },
+    {
+      "startTime": "6.400s",
+      "endTime": "6.700s",
+      "word": "patches"
+    },
+    {
+      "startTime": "6.700s",
+      "endTime": "6.900s",
+      "word": "on"
+    },
+    {
+      "startTime": "6.900s",
+      "endTime": "7.100s",
+      "word": "my"
+    },
+    {
+      "startTime": "7.100s",
+      "endTime": "7.400s",
+      "word": "elbow"
+    },
+    {
+      "startTime": "7.400s",
+      "endTime": "7.600s",
+      "word": "so"
+    },
+    {
+      "startTime": "7.600s",
+      "endTime": "7.700s",
+      "word": "I"
+    },
+    {
+      "startTime": "7.700s",
+      "endTime": "8s",
+      "word": "seem"
+    },
+    {
+      "startTime": "8s",
+      "endTime": "8.400s",
+      "word": "smart"
+    },
+    {
+      "startTime": "8.400s",
+      "endTime": "8.600s",
+      "word": "and"
+    },
+    {
+      "startTime": "8.600s",
+      "endTime": "8.800s",
+      "word": "this"
+    },
+    {
+      "startTime": "8.800s",
+      "endTime": "9.100s",
+      "word": "is"
+    },
+    {
+      "startTime": "9.100s",
+      "endTime": "9.400s",
+      "word": "Crash"
+    },
+    {
+      "startTime": "9.400s",
+      "endTime": "9.700s",
+      "word": "Course"
+    },
+    {
+      "startTime": "9.700s",
+      "endTime": "10.100s",
+      "word": "government"
+    },
+    {
+      "startTime": "10.100s",
+      "endTime": "10.300s",
+      "word": "and"
+    },
+    {
+      "startTime": "10.300s",
+      "endTime": "10.800s",
+      "word": "politics"
+    },
+    {
+      "startTime": "10.800s",
+      "endTime": "11.100s",
+      "word": "a"
+    },
+    {
+      "startTime": "11.100s",
+      "endTime": "11.300s",
+      "word": "new"
+    },
+    {
+      "startTime": "11.300s",
+      "endTime": "11.600s",
+      "word": "show"
+    }
+  ]
+}
