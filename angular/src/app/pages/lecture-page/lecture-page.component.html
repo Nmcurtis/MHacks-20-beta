@@ -9,7 +9,11 @@
                 <mat-icon>close</mat-icon>
             </button>
         </mat-form-field>
-        <button mat-raised-button color="primary" (click)="onSearch()">Search</button>
+        <button mat-raised-button color="primary" (click)="onSearch()">Search</button><br>
+        <a><b>Skip Ahead: </b></a>
+        <ng-container *ngFor="let time of timestamps">
+            <button class="m-1" mat-raised-button color="primary" (click)="updateVideo(time)"> {{time}} seconds</button>
+        </ng-container>
     </div>
     <div>
         <iframe width="730" height="400" [src]="videoLink" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -19,18 +19,30 @@ export class LecturePageComponent implements OnInit {
   lecture: Lecture;
   value: string;
   videoLink: SafeResourceUrl;
+  timestamps: number[] = [2, 12, 25];
+  baseUrl: string = "https://www.youtube.com/embed/lrk4oY7UxpQ"
+  errorMessage: string = "";
 
   constructor(private lectureService: LectureService,
               private _sanitizer: DomSanitizer) {
-    this.videoLink = this._sanitizer.bypassSecurityTrustResourceUrl("https://www.youtube.com/embed/lrk4oY7UxpQ");
+    this.videoLink = this._sanitizer.bypassSecurityTrustResourceUrl(this.baseUrl);
   }
 
   ngOnInit(): void {
     this.lecture = this.lectureService.currentLecture;
   }
 
-  updateUrl(url: string) {
-    this.videoLink = this._sanitizer.bypassSecurityTrustResourceUrl(url);
+  updateUrl(url: number[]) {
+    if (url.length) {
+      this.timestamps = url;
+      this.videoLink = this._sanitizer.bypassSecurityTrustResourceUrl(this.baseUrl + "?start=" + url[0]);
+    } else {
+      this.errorMessage = "No matches";
+    } 
+  }
+
+  updateVideo(url: number) {
+    this.videoLink = this._sanitizer.bypassSecurityTrustResourceUrl(this.baseUrl + "?start=" + url);
   }
 
   onSearch() {
